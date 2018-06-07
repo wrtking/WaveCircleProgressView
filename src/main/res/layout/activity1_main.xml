@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivaaaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/group3"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/ivssfk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/oval13"
+            android:layout_centerInParent="true"/>
+        <com.example.wavedemo.waveView
+            android:id="@+id/waveview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/iv_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/iv_wenhao"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_frist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        <com.example.wavedemo.CircleRainView
+            android:id="@+id/circleRainView"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="24"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="匹配。。。"/>
+    <com.example.wavedemo.waveBackView
+        android:id="@+id/wavebackview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+#Thu Jun 07 12:24:24 CST 2018
+base.0=/Users/wenruitao/Documents/workspace/waveDemo/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex
